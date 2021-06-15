@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Richargh.Sandbox.ContractTests.Library</RootNamespace>
+    
+    <Nullable>enable</Nullable>
+    <LangVersion>9.0</LangVersion>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDb.Bson.NodaTime" Version="2.1.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.0" />
+  </ItemGroup>
+
+</Project>
